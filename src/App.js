@@ -13,10 +13,7 @@ function App() {
   return (
     <DataProvider>
       <Routes>
-        <Route path="/" element={<Layout
-          // search={search}
-          // setSearch={setSearch}
-        />}>
+        <Route path="/" element={<Layout/>}>
           <Route index element={<Home/>} />
           <Route path="post">
             <Route index element={<NewPost/>}/>
